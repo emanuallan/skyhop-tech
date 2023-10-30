@@ -1,0 +1,42 @@
+/**
+Was going to custom style everything initially but realized
+it would be alot quicker if I just used a component library like
+chakra, but leaving this here as further evidence of my work.
+**/
+
+.header {
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.bold-text {
+	font-weight: bold;
+}
+
+.button {
+	border-radius: 8px;
+	font-weight: bold;
+	min-width: 200px;
+	padding: 16px 32px;
+}
+
+.primary-button {
+	background-color: #1c3d6e;
+	color: white;
+}
+
+.secondary-button {
+	background-color: white;
+	border: 2px solid #faa03a;
+	color: #faa03a;
+}
+
+.select {
+	width: 100%;
+}
+
+hr {
+	border: none;
+	background-color: #eaeaea;
+	height: 2px;
+}
